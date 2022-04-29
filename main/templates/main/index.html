@@ -1,0 +1,14 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Main page{% endblock title %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ title }}</h1>
+        <p>main pageailjiwhgfqowiahdlaifjlghwuodhfiahfwiohfdaipshfaiofhaipsdjcslighweoidjfaklfaefffhdaodh</p>
+        <button class="btn btn-warning"> To main</button>
+        {% for el in obj %}
+            <p>{{ el }}</p>
+        {% endfor %}
+    </div>    
+{% endblock content %}
